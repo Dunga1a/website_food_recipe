@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-family: "Quicksand", "Arial", sans-serif;
+  color: #545454;
+  font-size: 1.25rem;
+}
+
+a {
+  color: #16703f;
+}
+
+h1 {
+  font-size: 36px;
+  color: #2b4874;
+  font-weight: 700;
+}
+
+input:focus {
+  outline-offset: 0 !important;
+  outline: none !important;
+  --tw-ring-shadow: none !important;
+  --tw-ring-color: #e1e1e1 !important;
+  border-color: #e1e1e1 !important;
+}
+
+textarea:focus {
+  outline-offset: 0 !important;
+  outline: none !important;
+  --tw-ring-shadow: none !important;
+  --tw-ring-color: #e1e1e1 !important;
+  border-color: #e1e1e1 !important;
+}
